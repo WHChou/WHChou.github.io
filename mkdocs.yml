@@ -2,3 +2,32 @@ site_name: Wen-hung Chou's personal website
 site_url: https://WHChou.github.io
 theme:
   name: material
+  palette:
+  # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple 
+      accent: light green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    -navigation.instant
+    -navigation.instant.prefetch
+    -navigation.tabs
+  extra:
+    analytics:
+      provider: google
+      property: G-H96961D5NP
