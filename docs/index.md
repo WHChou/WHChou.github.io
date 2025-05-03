@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Main
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## About Me
+Brief introduction about yourself, your background, and interests.
 
-## Commands
+## What I Do
+Overview of your professional work, research, or hobbies.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Recent Projects
+Short description of your recent projects with links to their pages.
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Get in Touch
+Information about how people can contact you.

@@ -27,6 +27,14 @@ theme:
     -navigation.instant
     -navigation.instant.prefetch
     -navigation.tabs
+  nav:
+    - Home: index.md
+    - About: about.md
+    - Research:
+        - Publications: publications.md
+        - Projects: projects.md
+    - CV: cv.md
+    - Contact: contact.md
   extra:
     analytics:
       provider: google
