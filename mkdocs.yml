@@ -35,7 +35,7 @@ theme:
         - Projects: projects.md
     - CV: cv.md
     - Contact: contact.md
-  extra:
-    analytics:
-      provider: google
-      property: G-H96961D5NP
+extra:
+  analytics:
+    provider: google
+    property: G-H96961D5NP
