@@ -1,13 +1,15 @@
 # Main
 
 ## About Me
-Brief introduction about yourself, your background, and interests.
+Hi! My name is Wen-hung Chou. I am a computational biologist focusing on spatial biology applications in cancer research.
 
 ## What I Do
-Overview of your professional work, research, or hobbies.
+My work involves computational analysis of spatial transcriptomics, spatial proteomics, and fluorescence microscopy images.
 
 ## Recent Projects
-Short description of your recent projects with links to their pages.
+- Bone marrow microenvironment changes with aging and cancer
+- 3D morphological changes from precancer to cancer
+- Assembly mechanisms of myosin clusters in adherent cells
 
 ## Get in Touch
-Information about how people can contact you.
+email: chouw@wustl.edu
