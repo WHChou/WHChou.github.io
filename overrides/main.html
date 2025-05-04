@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block site_nav %}
+<div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+  <div class="md-sidebar__scrollwrap">
+    <div class="md-sidebar__inner">
+      <!-- Profile section -->
+      <div class="profile-wrapper">
+        <img src="{{ config.site_url }}assets/images/profile-pic.jpg" alt="Wen-hung Chou" class="profile-pic">
+        <h2 class="profile-name">Wen-hung Chou</h2>
+        <div class="profile-title">Computational Biologist</div>
+        <!--<div class="profile-bio">
+          Focusing on spatial biology applications in cancer research at Washington University in St. Louis.
+        </div>-->
+        <div class="social-links">
+          <a href="https://linkedin.com/in/wenhungchou" class="social-link" target="_blank" rel="noopener">
+            <span class="twemoji">
+              {% include ".icons/fontawesome/brands/linkedin.svg" %}
+            </span>
+          </a>
+          <a href="https://github.com/WHChou" class="social-link" target="_blank" rel="noopener">
+            <span class="twemoji">
+              {% include ".icons/fontawesome/brands/github.svg" %}
+            </span>
+          </a>
+          <a href="mailto:chouw@wustl.edu" class="social-link">
+            <span class="twemoji">
+              {% include ".icons/fontawesome/solid/envelope.svg" %}
+            </span>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Original navigation -->
+      {% include "partials/nav.html" %}
+    </div>
+  </div>
+</div>
+
+{% if page.toc and not "toc.integrate" in features %}
+  <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+    <div class="md-sidebar__scrollwrap">
+      <div class="md-sidebar__inner">
+        {% include "partials/toc.html" %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% endblock %}

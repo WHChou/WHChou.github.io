@@ -1,7 +1,8 @@
 site_name: Wen-hung Chou's personal website
-site_url: https://WHChou.github.io
+site_url: https://WHChou.github.io/
 theme:
   name: material
+  custom_dir: overrides
   palette:
   # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -24,23 +25,38 @@ theme:
     text: Roboto
     code: Roboto Mono
   features:
-    -navigation.instant
-    -navigation.instant.prefetch
-    -navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tabs
+    - navigation.sections
+  icon:
+    logo: material/book-open
   nav:
     - Home: index.md
     - About: about.md
     - Research:
-        - Publications: publications.md
-        - Projects: projects.md
+      - Publications: publications.md
+      - Projects: projects.md
     - CV: cv.md
     - Contact: contact.md
-markdown_extensions: 
-  - attr_list
-  - md_in_html
 not_in_nav: 
   subpages/*
 extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/wenhungchou/
+    - icon: fontawesome/brands/github
+      link: https://github.com/WHChou
+    - icon: fontawesome/solid/envelope
+      link: mailto:chouw@wustl.edu
   analytics:
     provider: google
     property: G-H96961D5NP
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - stylesheets/extra.css
