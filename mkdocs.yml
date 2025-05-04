@@ -35,6 +35,11 @@ theme:
         - Projects: projects.md
     - CV: cv.md
     - Contact: contact.md
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+not_in_nav: 
+  subpages/*
 extra:
   analytics:
     provider: google
