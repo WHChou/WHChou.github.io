@@ -1,0 +1,66 @@
+/* Profile styles */
+.profile-wrapper {
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: block;
+    object-fit: contain;
+    border: 3px solid var(--md-primary-fg-color);
+  }
+  
+  .profile-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: var(--md-primary-fg-color);
+  }
+  
+  .profile-title {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    opacity: 0.8;
+  }
+  
+  .profile-bio {
+    font-size: 0.6rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-link {
+    color: var(--md-primary-fg-color);
+    transition: color 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-link:hover {
+    color: var(--md-accent-fg-color);
+  }
+  
+  /* Icon styles */
+  .social-link svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+  }
+  
+  /* Dark mode adjustments */
+  [data-md-color-scheme="slate"] .profile-wrapper {
+    border-bottom-color: rgba(255, 255, 255, 0.07);
+  }

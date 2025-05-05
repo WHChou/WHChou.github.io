@@ -22,25 +22,25 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   font:
-    text: Roboto
+    text: Helvetica
     code: Roboto Mono
   features:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.tabs
-    - navigation.sections
   icon:
     logo: material/book-open
-  nav:
-    - Home: index.md
-    - About: about.md
-    - Research:
-      - Publications: publications.md
-      - Projects: projects.md
-    - CV: cv.md
-    - Contact: contact.md
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: projects.md
+  - Publications: publications.md
+  - CV: cv.md
+  - Contact: contact.md
+
 not_in_nav: 
-  subpages/*
+  Projects/*
 extra:
   social:
     - icon: fontawesome/brands/linkedin

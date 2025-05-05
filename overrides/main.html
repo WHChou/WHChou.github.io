@@ -30,14 +30,14 @@
           </a>
         </div>
       </div>
-      
+
       <!-- Original navigation -->
-      {% include "partials/nav.html" %}
+      <!--{% include "partials/nav.html" %} -->
     </div>
   </div>
 </div>
 
-{% if page.toc and not "toc.integrate" in features %}
+{% if page.toc %}
   <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
     <div class="md-sidebar__scrollwrap">
       <div class="md-sidebar__inner">
