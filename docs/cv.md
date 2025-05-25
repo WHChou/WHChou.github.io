@@ -11,6 +11,8 @@ Computational biologist specializing in developing and optimizing bioinformatics
 
 Current postdoctoral research focuses on integrating multi-omics data to elucidate mechanisms of immune aging and cancer progression at Washington University in St. Louis. Published research in high-impact journals including *PNAS* and *Biophysical Journal*, with findings presented at major conferences.
 
+A list of my publications can be found on [Google scholars](https://scholar.google.com/citations?user=AdbZkREAAAAJ&hl=en).
+
 ## **Education**
 
 **Ph.D. Biophysics**, The University of Chicago, Chicago, IL (2017 - 2023)
