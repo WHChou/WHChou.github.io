@@ -1,2 +1,2 @@
 # Contact
-Under construction
+Email: whchou29 [at] gmail [dot] com

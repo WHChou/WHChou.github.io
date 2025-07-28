@@ -2,7 +2,7 @@
 
 ## **Professional Summary**
 
-Computational biologist specializing in developing and optimizing bioinformatics pipelines for complex multi-modal biological data analysis, with expertise in:
+Computational biologist specializing in developing and optimizing computational pipelines for complex multi-modal biological data analysis, with expertise in:
 
 - Advanced image analysis and spatial biology applications
 - Integration of spatial transcriptomics, single-cell RNA-seq, and microscopy datasets
@@ -23,8 +23,6 @@ A list of my publications can be found on [Google scholars](https://scholar.goog
 
 **Postdoc**, Washington University in Saint Louis, St. Louis, MO (2024 - Present)
 
-*Advisor: Li Ding, Ph.D.*
-
 - Analyze preclinical molecular data by integrating multi-omics datasets, including scRNA-seq (300K cells across 50+ samples) and spatial transcriptomics datasets (2M cells across 40+ samples), to discover biomarkers for the aging and cancer bone marrow microenvironment 
 - Develop computational biology workflows for the processing and interpretation of Xenium spatial transcriptomics datasets, guiding $100K+ strategic decisions and experimental design to optimize resource allocation and reduce experimental failure rates
 - Lead end-to-end 3D tissue imaging project from data acquisition to the analysis of terabyte-scale light-sheet microscopy datasets, revealing distinct normal, precancer, and cancer morphologies within intact 10 mm³ specimens
@@ -32,8 +30,6 @@ A list of my publications can be found on [Google scholars](https://scholar.goog
 - Presented key research findings to diverse stakeholders across the NIH SenNet consortium, coordinating collaborative efforts among 10 scientists in 4 external institutions and facilitating the integration of multi-institutional data to advance consortium-wide research objectives
 
 **Graduate Research Assistant**, The University of Chicago, Chicago, IL (2018 - 2023)
-
-*Advisor: Margaret Gardel, Ph.D.*
 
 - Applied quantitative bioimage analysis and computational modeling to extract self-assembly rules governing myosin structures, revealing key mechanisms of cellular force production and supporting successful grant applications totaling $32,000 
 - Designed and optimized advanced image analysis algorithms in MATLAB and Python that reduced processing time of 100+ confocal images of single cells from days to hours, contributing to 2 high-impact publications in PNAS and Biophysical Journal
@@ -83,8 +79,8 @@ A list of my publications can be found on [Google scholars](https://scholar.goog
 **Programming & Tools**
 
 - Languages: Python, R, MATLAB
-- Python Libraries: NumPy, SciPy, scikit-image, Napari, PyTorch, scikit-learn, Pandas, Matplotlib, Seaborn
-- R Packages: Seurat, dplyr, ggplot2, tidyverse
+- Python Libraries: Pandas, scikit-learn, PyTorch, scikit-image, Napari, Matplotlib, Seaborn
+- R Packages: Seurat, dplyr, ggplot2, tidyverse, bioconductor
 - Image Analysis Tools: ImageJ/Fiji, Imaris, QuPath
 - Other Tools: Git/GitHub, High-performance computing, Docker
 
@@ -97,13 +93,12 @@ A list of my publications can be found on [Google scholars](https://scholar.goog
 
 **Advanced Microscopy & Cell Biology**
 
-- Light-sheet microscopy
-- Confocal microscopy
-- Super-resolution microscopy
+- Light microscopy (lightsheet, confocal, super-resolution)
 - Live-cell imaging
 - Immunofluorescence (tumor tissue/*in vitro* cell model)
 - Tissue cell culture
-- Molecular biology techniques (DNA cloning, mini-prep, siRNA/shRNA transfection, western blotting)
+- Western blotting
+- Molecular biology techniques (DNA cloning, mini-prep, siRNA/shRNA transfection)
 
 ## **Publications and Presentations**
 
@@ -123,7 +118,7 @@ A list of my publications can be found on [Google scholars](https://scholar.goog
 
 ### Conference Presentations
 
-1. **W.-H. Chou**, ..., L. Ding, "Multimodal atlas of cellular senescence in human bone marrow reveals insights into aging and multiple myeloma" (2025) Upcoming poster presentation at AACR
+1. **W.-H. Chou**, ..., L. Ding, "Multimodal atlas of cellular senescence in human bone marrow reveals insights into aging and multiple myeloma" (2025) Poster presentation at AACR
 
 2. **W.-H. Chou**, M. Molaei, H. Wu, P. Oakes, J. Beach, M.L. Gardel, "Cellular Contractile Structures are Organized by Assembly and Coalescence of Myosin Contractile Units." (2022) Oral presentation at Cell Bio 2022 (ASCB|EMBO annual meeting)
 
